@@ -1,10 +1,11 @@
 package project;
 
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in).useLocale(Locale.US);
         double firstNumber, secondNumber;
         String operation = "";
         boolean sw = true;
